@@ -1,0 +1,159 @@
+#logo{
+    height: 95px;
+    width : 269px;
+    display:block;
+    padding-top:192px;
+}
+
+#searchInput{
+    outline:none;
+    height:25px;
+    background-image:url(../images/microphone.gif);
+    background-repeat:no-repeat;
+    background-size:15px 19px;
+    background-position:99% 50%;
+    width:620px;
+    margin-top:30px;
+    position:relative;
+    font-family:"Lucida Grande";
+    font-size:20px;
+    display:block;
+}
+
+#searchInput:hover{
+    border:1px solid;
+    border-color:#666;
+}
+
+#searchInput:focus{
+    border:1px solid;
+    border-color:#777;
+}
+
+.buttons{
+    display:inline-block;
+    font-size:11px;
+    font-weight: bold;
+    margin:15px 8px 15px 8px;
+    font-family: arial,sans-serif;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:2px;
+    color: #444;
+    background-color: #f5f5f5;
+    height:29px;
+    line-height:27px;
+    padding:0 8px 0 8px;
+}
+
+.buttons:hover{
+    border-color:grey;
+}
+
+.bottons:focus{
+    border-color:grey;
+    outline:0;
+}
+
+
+footer{
+    display:block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#f2f2f2;
+    width:100%;
+    line-height:40px;
+    border-top:1px solid #e4e4e4;
+}
+
+div span{
+    color: #666;
+    display:inline-block;
+    font-family:arial,sans-serif;
+    padding-left:27px;
+}
+
+footer span span{
+    margin:0;
+    color: #777;
+    display:inline-block;
+    font-family:arial,sans-serif;
+    padding-left:27px;
+    font-size:small;
+}
+
+#left{
+    float:left;
+}
+
+#right{
+    float:right;
+    margin-right:30px;
+}
+
+a{
+    text-decoration:none;
+    color:#666;
+}
+
+
+
+a:hover{
+    text-decoration:underline;
+}
+
+header{
+    position:absolute;
+    display:block;
+    top:0px;
+    right:0px;
+    padding-top:20px;
+    padding-right:30px;
+}
+
+header span{
+    font-size:small;
+    display:inline-block;
+    font-family:arial,sans-serif;
+    line-height:24px;
+    text-align:center;
+}
+
+#apps{
+    display:inline-block;
+    background-image:url(../images/apps.png);
+    background-repeat:no-repeat;
+    background-position: 16.5px 2px;
+    background-size: 20px 20px;
+    line-height: 30px;
+    width: 50px;
+    opacity:0.5;
+    border:none;
+    color:#fff
+}
+
+#apps:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+#signIn{
+    border:1px solid #4285f4;
+    font-weight:bold;
+    padding:3px 12px 3px 12px;
+    background: #4285f4;
+    line-height:28px;
+}
+
+
+#signIn a{
+	color: white;
+}
+
+
+
+#images{
+    padding-left:15px;
+}
+
